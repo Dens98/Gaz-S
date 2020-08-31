@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE67304824BF5E660018D8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67304724BF5E650018D8E6 /* AppDelegate.swift */; };
+		BE67304A24BF5E660018D8E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67304924BF5E660018D8E6 /* SceneDelegate.swift */; };
+		BE67304C24BF5E660018D8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67304B24BF5E660018D8E6 /* ViewController.swift */; };
+		BE67304F24BF5E660018D8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE67304D24BF5E660018D8E6 /* Main.storyboard */; };
+		BE67305224BF5E660018D8E6 /* Gaz_S.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE67305024BF5E660018D8E6 /* Gaz_S.xcdatamodeld */; };
+		BE67305424BF5E6B0018D8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE67305324BF5E6B0018D8E6 /* Assets.xcassets */; };
+		BE67305724BF5E6B0018D8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE67305524BF5E6B0018D8E6 /* LaunchScreen.storyboard */; };
+		BE67306224BF5E6B0018D8E6 /* Gaz_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67306124BF5E6B0018D8E6 /* Gaz_STests.swift */; };
+		BE67306D24BF5E6B0018D8E6 /* Gaz_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67306C24BF5E6B0018D8E6 /* Gaz_SUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE67305E24BF5E6B0018D8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE67303C24BF5E650018D8E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE67304324BF5E650018D8E6;
+			remoteInfo = "Gaz S";
+		};
+		BE67306924BF5E6B0018D8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE67303C24BF5E650018D8E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE67304324BF5E650018D8E6;
+			remoteInfo = "Gaz S";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE67304424BF5E650018D8E6 /* Gaz S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaz S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67304724BF5E650018D8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE67304924BF5E660018D8E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE67304B24BF5E660018D8E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE67304E24BF5E660018D8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE67305124BF5E660018D8E6 /* Gaz_S.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gaz_S.xcdatamodel; sourceTree = "<group>"; };
+		BE67305324BF5E6B0018D8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE67305624BF5E6B0018D8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE67305824BF5E6B0018D8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE67305D24BF5E6B0018D8E6 /* Gaz STests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaz STests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67306124BF5E6B0018D8E6 /* Gaz_STests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaz_STests.swift; sourceTree = "<group>"; };
+		BE67306324BF5E6B0018D8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE67306824BF5E6B0018D8E6 /* Gaz SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaz SUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67306C24BF5E6B0018D8E6 /* Gaz_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaz_SUITests.swift; sourceTree = "<group>"; };
+		BE67306E24BF5E6B0018D8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE67304124BF5E650018D8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67305A24BF5E6B0018D8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67306524BF5E6B0018D8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE67303B24BF5E650018D8E6 = {
+			isa = PBXGroup;
+			children = (
+				BE67304624BF5E650018D8E6 /* Gaz S */,
+				BE67306024BF5E6B0018D8E6 /* Gaz STests */,
+				BE67306B24BF5E6B0018D8E6 /* Gaz SUITests */,
+				BE67304524BF5E650018D8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE67304524BF5E650018D8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE67304424BF5E650018D8E6 /* Gaz S.app */,
+				BE67305D24BF5E6B0018D8E6 /* Gaz STests.xctest */,
+				BE67306824BF5E6B0018D8E6 /* Gaz SUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE67304624BF5E650018D8E6 /* Gaz S */ = {
+			isa = PBXGroup;
+			children = (
+				BE67304724BF5E650018D8E6 /* AppDelegate.swift */,
+				BE67304924BF5E660018D8E6 /* SceneDelegate.swift */,
+				BE67304B24BF5E660018D8E6 /* ViewController.swift */,
+				BE67304D24BF5E660018D8E6 /* Main.storyboard */,
+				BE67305324BF5E6B0018D8E6 /* Assets.xcassets */,
+				BE67305524BF5E6B0018D8E6 /* LaunchScreen.storyboard */,
+				BE67305824BF5E6B0018D8E6 /* Info.plist */,
+				BE67305024BF5E660018D8E6 /* Gaz_S.xcdatamodeld */,
+			);
+			path = "Gaz S";
+			sourceTree = "<group>";
+		};
+		BE67306024BF5E6B0018D8E6 /* Gaz STests */ = {
+			isa = PBXGroup;
+			children = (
+				BE67306124BF5E6B0018D8E6 /* Gaz_STests.swift */,
+				BE67306324BF5E6B0018D8E6 /* Info.plist */,
+			);
+			path = "Gaz STests";
+			sourceTree = "<group>";
+		};
+		BE67306B24BF5E6B0018D8E6 /* Gaz SUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE67306C24BF5E6B0018D8E6 /* Gaz_SUITests.swift */,
+				BE67306E24BF5E6B0018D8E6 /* Info.plist */,
+			);
+			path = "Gaz SUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE67304324BF5E650018D8E6 /* Gaz S */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67307124BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz S" */;
+			buildPhases = (
+				BE67304024BF5E650018D8E6 /* Sources */,
+				BE67304124BF5E650018D8E6 /* Frameworks */,
+				BE67304224BF5E650018D8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gaz S";
+			productName = "Gaz S";
+			productReference = BE67304424BF5E650018D8E6 /* Gaz S.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE67305C24BF5E6B0018D8E6 /* Gaz STests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67307424BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz STests" */;
+			buildPhases = (
+				BE67305924BF5E6B0018D8E6 /* Sources */,
+				BE67305A24BF5E6B0018D8E6 /* Frameworks */,
+				BE67305B24BF5E6B0018D8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE67305F24BF5E6B0018D8E6 /* PBXTargetDependency */,
+			);
+			name = "Gaz STests";
+			productName = "Gaz STests";
+			productReference = BE67305D24BF5E6B0018D8E6 /* Gaz STests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE67306724BF5E6B0018D8E6 /* Gaz SUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67307724BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz SUITests" */;
+			buildPhases = (
+				BE67306424BF5E6B0018D8E6 /* Sources */,
+				BE67306524BF5E6B0018D8E6 /* Frameworks */,
+				BE67306624BF5E6B0018D8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE67306A24BF5E6B0018D8E6 /* PBXTargetDependency */,
+			);
+			name = "Gaz SUITests";
+			productName = "Gaz SUITests";
+			productReference = BE67306824BF5E6B0018D8E6 /* Gaz SUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE67303C24BF5E650018D8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Denis Shustin";
+				TargetAttributes = {
+					BE67304324BF5E650018D8E6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BE67305C24BF5E6B0018D8E6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BE67304324BF5E650018D8E6;
+					};
+					BE67306724BF5E6B0018D8E6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BE67304324BF5E650018D8E6;
+					};
+				};
+			};
+			buildConfigurationList = BE67303F24BF5E650018D8E6 /* Build configuration list for PBXProject "Gaz S" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE67303B24BF5E650018D8E6;
+			productRefGroup = BE67304524BF5E650018D8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE67304324BF5E650018D8E6 /* Gaz S */,
+				BE67305C24BF5E6B0018D8E6 /* Gaz STests */,
+				BE67306724BF5E6B0018D8E6 /* Gaz SUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE67304224BF5E650018D8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67305724BF5E6B0018D8E6 /* LaunchScreen.storyboard in Resources */,
+				BE67305424BF5E6B0018D8E6 /* Assets.xcassets in Resources */,
+				BE67304F24BF5E660018D8E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67305B24BF5E6B0018D8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67306624BF5E6B0018D8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE67304024BF5E650018D8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67304C24BF5E660018D8E6 /* ViewController.swift in Sources */,
+				BE67304824BF5E660018D8E6 /* AppDelegate.swift in Sources */,
+				BE67305224BF5E660018D8E6 /* Gaz_S.xcdatamodeld in Sources */,
+				BE67304A24BF5E660018D8E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67305924BF5E6B0018D8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67306224BF5E6B0018D8E6 /* Gaz_STests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE67306424BF5E6B0018D8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67306D24BF5E6B0018D8E6 /* Gaz_SUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE67305F24BF5E6B0018D8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE67304324BF5E650018D8E6 /* Gaz S */;
+			targetProxy = BE67305E24BF5E6B0018D8E6 /* PBXContainerItemProxy */;
+		};
+		BE67306A24BF5E6B0018D8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE67304324BF5E650018D8E6 /* Gaz S */;
+			targetProxy = BE67306924BF5E6B0018D8E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE67304D24BF5E660018D8E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67304E24BF5E660018D8E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE67305524BF5E6B0018D8E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67305624BF5E6B0018D8E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE67306F24BF5E6B0018D8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE67307024BF5E6B0018D8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE67307224BF5E6B0018D8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz S/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE67307324BF5E6B0018D8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz S/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE67307524BF5E6B0018D8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz STests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-STests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaz S.app/Gaz S";
+			};
+			name = Debug;
+		};
+		BE67307624BF5E6B0018D8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz STests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-STests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaz S.app/Gaz S";
+			};
+			name = Release;
+		};
+		BE67307824BF5E6B0018D8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz SUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-SUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaz S";
+			};
+			name = Debug;
+		};
+		BE67307924BF5E6B0018D8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V2GJXUSCV;
+				INFOPLIST_FILE = "Gaz SUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shust.Gaz-SUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gaz S";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE67303F24BF5E650018D8E6 /* Build configuration list for PBXProject "Gaz S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67306F24BF5E6B0018D8E6 /* Debug */,
+				BE67307024BF5E6B0018D8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE67307124BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67307224BF5E6B0018D8E6 /* Debug */,
+				BE67307324BF5E6B0018D8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE67307424BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz STests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67307524BF5E6B0018D8E6 /* Debug */,
+				BE67307624BF5E6B0018D8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE67307724BF5E6B0018D8E6 /* Build configuration list for PBXNativeTarget "Gaz SUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67307824BF5E6B0018D8E6 /* Debug */,
+				BE67307924BF5E6B0018D8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE67305024BF5E660018D8E6 /* Gaz_S.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE67305124BF5E660018D8E6 /* Gaz_S.xcdatamodel */,
+			);
+			currentVersion = BE67305124BF5E660018D8E6 /* Gaz_S.xcdatamodel */;
+			path = Gaz_S.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE67303C24BF5E650018D8E6 /* Project object */;
+}
