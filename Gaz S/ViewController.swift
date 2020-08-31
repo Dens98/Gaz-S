@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         locs.append(CLLocationCoordinate2DMake(55.575, 37.26))
         locs.append(CLLocationCoordinate2DMake(55.575, 38.26))
         // test 5
+        // test 6
         for la in 0...70 {
             for lo in -180...0{
                 locs.append(CLLocationCoordinate2DMake(Double(la) + 0.575, Double(lo) - 0.26))
